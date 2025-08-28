@@ -13,6 +13,9 @@ This script provides a simple and consistent way for Callout/Plugin developers t
 
 ## How to Use
 
+### Import the script
+Import the script int your project
+
 ### Step 1: Locate Existing Logging Statements
 
 Find any occurrence of `Game.LogTrivial` within your plugin or callout script. For example:
