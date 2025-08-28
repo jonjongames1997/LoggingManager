@@ -1,3 +1,5 @@
+<img src="https://img.shields.io/badge/status-Active-green" />
+
 # LoggingManager Plugin Debugging Script
 
 ## About the Script
