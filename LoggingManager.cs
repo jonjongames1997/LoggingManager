@@ -55,7 +55,7 @@ namespace JMCalloutsRemastered.Stuff
 
         internal static void Normal(string msg)
         {
-            string logMessage = $"[NORMAL] JMCallouts Remasterd: {msg}";
+            string logMessage = $"[NORMAL] JMCallouts Remasterd: {msg}"; // Change the logMessage name to your plugin
             try
             {
                 File.AppendAllText(LogFilePath, $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} {logMessage}{Environment.NewLine}");
@@ -68,4 +68,5 @@ namespace JMCalloutsRemastered.Stuff
         }
     }
 }
+
 
