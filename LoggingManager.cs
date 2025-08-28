@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using Rage;
-using JMCalloutsRemastered.Utilities;
+using JMCalloutsRemastered.Utilities; // Remove this. Not necessary to have unless you have a folder named 'Utilities', you'll replace my callout plugin name to yours.
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
@@ -10,8 +10,8 @@ namespace JMCalloutsRemastered.Stuff
 {
     internal static class LoggingManager
     {
-        private const string LoggingPrefix = "JMCalloutsRemastered";
-        private static readonly string LogFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "plugins/LSPDFR/JMCalloutsRemastered/Log/JMCalloutsRemastered.log");
+        private const string LoggingPrefix = "JMCalloutsRemastered"; // Rename this to your plugin
+        private static readonly string LogFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "plugins/LSPDFR/JMCalloutsRemastered/Log/JMCalloutsRemastered.log"); // Change the log file directory to yours
 
         internal enum LogLevel
         {
@@ -68,3 +68,4 @@ namespace JMCalloutsRemastered.Stuff
         }
     }
 }
+
